@@ -1,0 +1,165 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.max520{
+    max-width: 520px;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+    padding:0 0 8rem 0;
+}
+
+#hello{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.onlybold{
+    font-weight: 600;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin-bottom:  4rem;
+    background-color: #f9f9f9;
+}
+
+.hello{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.highlight{
+    background-color: #f6277d;
+    color: #fff;
+}
+
+.highlight2{
+    background-color: #8d0634;
+    color: #fff;
+}
+
+.highlight, .highlight2{
+    padding: 0.09rem 0.5rem;
+    margin: 0 0.2rem;
+    border-radius: 0.2rem;
+    font-weight: 600;
+}
+
+.darker{
+    color: #000;
+}
+
+.iam{
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.andalso{
+    margin: 2rem 0;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #666;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    padding-inline-end: 0;
+    padding-inline-start: 0;
+    
+}
+
+.menu ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1.9rem 0.7rem;
+    margin-right: 0.7rem;
+}
+
+.menu ul li:last-child{
+    margin-right: 0;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+    color: #444;
+    border-bottom: 2px solid transparent;
+}
+
+.menu ul li a:hover{
+    border-bottom: 2px solid #f6277d;
+}
+
+#photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+#photo > *{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+#photo img{
+    max-width: 12rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 5px #f9f9f9;
+
+}
+
+.title2{
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+.title3{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.desc2{
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    color: #666;
+}
