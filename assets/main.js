@@ -25,6 +25,7 @@ $(() => {
             'border-radius': '5px',
             'font-size': '13px',
             'z-index': 9999,
+            'cursor': 'default',
             'text-align': 'center'
         });
 
