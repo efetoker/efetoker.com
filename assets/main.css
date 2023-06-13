@@ -32,12 +32,20 @@ section.hello > img{
 
 section.tech-stack{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: stretch;
 }
 
-section.tech-stack > img{
+section.tech-stack > .tech-stack-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+section.tech-stack > .tech-stack-row > img{
     max-width: 3rem;
     margin-right: 2rem;
     transition: all 0.2s ease-in-out;
@@ -45,13 +53,50 @@ section.tech-stack > img{
     display: inline-block;
 }
 
-section.tech-stack > img:last-child{
+section.tech-stack > .tech-stack-row > img:last-child{
     margin-right: 0;
 }
 
-section.tech-stack > img:hover{
+section.tech-stack > .tech-stack-row > img:hover{
     transform: scale(1.25);
     cursor: pointer;
+}
+
+section.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    margin: 4rem auto 0 auto;
+}
+
+section.contact > a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+section.contact > a:first-child{
+    background-color: #0072b1;
+    margin-right: 2rem;
+}
+
+section.contact > a:last-child{
+    background-color: #8d0634;
+}
+
+section.contact > a > img{
+    max-width: 1rem;
+    margin-left: 1rem;
+}
+
+section.contact > a:hover{
+    transform: scale(1.05);
 }
 
 .highlight{
