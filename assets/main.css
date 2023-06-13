@@ -12,6 +12,7 @@ body{
     align-items: center;
     flex-direction: column;
     padding:0 0 8rem 0;
+    max-width: 100vw;
 }
 
 section.hello{
@@ -121,4 +122,28 @@ section.contact > a:hover{
     font-size: 1rem;
     line-height: 1.7;
     color: #666;
+}
+
+@media (max-width: 992px) {
+    .container{
+        padding: 1rem 1rem 4rem 1rem;
+    }
+
+    section.hello{
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    section.hello > img{
+        margin-right: 0;
+    }
+
+    section.tech-stack > .tech-stack-row{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    section.tech-stack > .tech-stack-row > img{
+        margin: 0 1rem 2rem 1rem;
+    }
 }
