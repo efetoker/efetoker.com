@@ -47,9 +47,9 @@ section.tech-stack > .tech-stack-row{
 }
 
 section.tech-stack > .tech-stack-row > img{
-    max-width: 3rem;
+    width: 2.5rem;
     margin-right: 2rem;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
     position: relative;
     display: inline-block;
 }
@@ -79,7 +79,7 @@ section.contact > a{
     border-radius: 0.2rem;
     color: #fff;
     text-decoration: none;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 section.contact > a:first-child{
